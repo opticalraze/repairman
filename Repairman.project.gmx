@@ -36,7 +36,7 @@
     <object>objects\obj_cursor</object>
     <object>objects\obj_game</object>
     <object>objects\obj_computer</object>
-    <object>objects\object3</object>
+    <object>objects\obj_leave</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_bench</object>
     <object>objects\obj_quit</object>

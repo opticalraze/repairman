@@ -58,7 +58,7 @@ sprite_index = spr_cursor;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="object3">
+    <event eventtype="4" ename="obj_leave">
       <action>
         <libid>1</libid>
         <id>603</id>
