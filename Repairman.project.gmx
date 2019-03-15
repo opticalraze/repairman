@@ -17,6 +17,8 @@
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_bar_money</sprite>
     <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\sprite13</sprite>
+    <sprite>sprites\spr_bar_tools</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
