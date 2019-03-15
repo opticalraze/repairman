@@ -54,13 +54,7 @@
     <instance objName="obj_game" x="0" y="0" name="inst_CE8DCEBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_computer" x="32" y="-11" name="inst_47B97698" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_leave" x="112" y="-15" name="inst_F2E46B4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="152" y="-16" name="inst_D84FF0F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="183" y="-16" name="inst_185AFA44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="160" y="96" name="inst_5E196E3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bench" x="64" y="80" name="inst_4CFC32F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="128" y="96" name="inst_961FBDE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="32" y="96" name="inst_CEAC034D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="0" y="96" name="inst_95154A20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tl_shelves" x="0" y="16" w="16" h="16" xo="0" yo="0" id="10000003" name="inst_3256322B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -85,10 +79,28 @@
     <tile bgName="tl_shelves" x="176" y="64" w="16" h="16" xo="32" yo="16" id="10000022" name="inst_0A922452" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_shelves" x="176" y="48" w="16" h="16" xo="32" yo="16" id="10000023" name="inst_3F5FF56E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_shelves" x="176" y="32" w="16" h="16" xo="32" yo="16" id="10000024" name="inst_C0F4E2A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tl_shelves" x="96" y="0" w="16" h="16" xo="32" yo="16" id="10000025" name="inst_A36A26FD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tl_shelves" x="144" y="0" w="16" h="16" xo="0" yo="16" id="10000026" name="inst_403470BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_shelves" x="48" y="80" w="16" h="16" xo="48" yo="16" id="10000027" name="inst_D4709693" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tl_shelves" x="128" y="80" w="16" h="16" xo="48" yo="32" id="10000028" name="inst_53D14074" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="0" y="0" w="16" h="16" xo="0" yo="0" id="10000037" name="inst_D5E18DC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="16" y="0" w="16" h="16" xo="0" yo="0" id="10000038" name="inst_ACC6FDA6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="32" y="0" w="16" h="16" xo="0" yo="0" id="10000039" name="inst_A47837B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="48" y="0" w="16" h="16" xo="0" yo="0" id="10000040" name="inst_B38571C4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="64" y="0" w="16" h="16" xo="0" yo="0" id="10000041" name="inst_1FD6841E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="80" y="0" w="16" h="16" xo="0" yo="0" id="10000042" name="inst_AE9290E1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="96" y="0" w="16" h="16" xo="0" yo="0" id="10000043" name="inst_6F5A74F7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="144" y="0" w="16" h="16" xo="0" yo="0" id="10000059" name="inst_1DE8A2C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="0" y="96" w="16" h="16" xo="0" yo="0" id="10000061" name="inst_AF56BDB8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="16" y="96" w="16" h="16" xo="0" yo="0" id="10000062" name="inst_29FC527E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="32" y="96" w="16" h="16" xo="0" yo="0" id="10000063" name="inst_51C8FAFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="48" y="96" w="16" h="16" xo="0" yo="0" id="10000064" name="inst_21D2AD58" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="128" y="96" w="16" h="16" xo="0" yo="0" id="10000065" name="inst_AA461623" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="144" y="96" w="16" h="16" xo="0" yo="0" id="10000066" name="inst_0BFD9A26" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="160" y="96" w="16" h="16" xo="0" yo="0" id="10000067" name="inst_43D515A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="176" y="96" w="16" h="16" xo="0" yo="0" id="10000068" name="inst_06129004" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_shelves" x="96" y="0" w="16" h="16" xo="32" yo="16" id="10000051" name="inst_0AF4C01A" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="176" y="0" w="16" h="16" xo="0" yo="0" id="10000052" name="inst_BC3323AD" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_brick" x="160" y="0" w="16" h="16" xo="0" yo="0" id="10000053" name="inst_E033DE0B" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tl_shelves" x="144" y="0" w="16" h="16" xo="0" yo="16" id="10000060" name="inst_6C3B14D3" depth="10000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

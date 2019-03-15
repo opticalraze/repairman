@@ -38,16 +38,18 @@
     <background>background\background6</background>
     <background>background\bg_computer_topbar</background>
     <background>background\bg_computer_dock</background>
+    <background>background\bg_brick</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\quit_game.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_game</object>
+    <object>objects\obj_quit</object>
     <object>objects\obj_cursor</object>
     <object>objects\obj_cursor_tools</object>
     <object>objects\obj_cursor_computer</object>
-    <object>objects\obj_game</object>
     <object>objects\obj_computer</object>
     <object>objects\obj_leave</object>
     <object>objects\obj_wall</object>
@@ -58,7 +60,6 @@
       <object>objects\obj_click_zoom_two</object>
       <object>objects\obj_click_zoom_three</object>
     </objects>
-    <object>objects\obj_quit</object>
     <objects name="bar_tools">
       <object>objects\obj_bar_tools</object>
       <object>objects\obj_click_tool_one</object>
