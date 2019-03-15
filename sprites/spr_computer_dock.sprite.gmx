@@ -9,8 +9,8 @@
   <bboxmode>0</bboxmode>
   <bbox_left>16</bbox_left>
   <bbox_right>175</bbox_right>
-  <bbox_top>81</bbox_top>
-  <bbox_bottom>107</bbox_bottom>
+  <bbox_top>32</bbox_top>
+  <bbox_bottom>47</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -18,13 +18,8 @@
   </TextureGroups>
   <For3D>0</For3D>
   <width>192</width>
-  <height>108</height>
+  <height>48</height>
   <frames>
-    <frame index="0">images\spr_bar_tools_0.png</frame>
-    <frame index="1">images\spr_bar_tools_1.png</frame>
-    <frame index="2">images\spr_bar_tools_2.png</frame>
-    <frame index="3">images\spr_bar_tools_3.png</frame>
-    <frame index="4">images\spr_bar_tools_4.png</frame>
-    <frame index="5">images\spr_bar_tools_5.png</frame>
+    <frame index="0">images\spr_computer_dock_0.png</frame>
   </frames>
 </sprite>

@@ -13,12 +13,17 @@
     <sprite>sprites\spr_cursor_computer</sprite>
     <sprite>sprites\spr_cursor_desk</sprite>
     <sprite>sprites\spr_cursor_quit</sprite>
+    <sprite>sprites\spr_cursor_tools</sprite>
+    <sprite>sprites\spr_cursor_computer_gui</sprite>
     <sprite>sprites\spr_computer</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_bar_money</sprite>
     <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite13</sprite>
     <sprite>sprites\spr_bar_tools</sprite>
+    <sprite>sprites\spr_click_tools</sprite>
+    <sprite>sprites\spr_computer_dock</sprite>
+    <sprite>sprites\sprite17</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -29,6 +34,8 @@
     <background>background\background7</background>
     <background>background\background5</background>
     <background>background\background6</background>
+    <background>background\bg_computer_topbar</background>
+    <background>background\bg_computer_dock</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -36,16 +43,27 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_cursor</object>
+    <object>objects\obj_cursor_tools</object>
+    <object>objects\obj_cursor_computer</object>
     <object>objects\obj_game</object>
     <object>objects\obj_computer</object>
     <object>objects\obj_leave</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_bench</object>
     <object>objects\obj_quit</object>
+    <objects name="bar_tools">
+      <object>objects\obj_bar_tools</object>
+      <object>objects\obj_click_tool_one</object>
+      <object>objects\obj_click_tool_two</object>
+      <object>objects\obj_click_tool_three</object>
+      <object>objects\obj_click_tool_four</object>
+      <object>objects\obj_click_tool_five</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
-    <room>rooms\rm_repair_one</room>
+    <room>rooms\rm_bench</room>
+    <room>rooms\rm_computer</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
