@@ -20,6 +20,8 @@
     <sprite>sprites\spr_bar_money</sprite>
     <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite13</sprite>
+    <sprite>sprites\spr_bar_zoom</sprite>
+    <sprite>sprites\spr_click_zoom</sprite>
     <sprite>sprites\spr_bar_tools</sprite>
     <sprite>sprites\spr_click_tools</sprite>
     <sprite>sprites\spr_computer_dock</sprite>
@@ -50,6 +52,12 @@
     <object>objects\obj_leave</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_bench</object>
+    <objects name="bar_zoom">
+      <object>objects\obj_bar_zoom</object>
+      <object>objects\obj_click_zoom_one</object>
+      <object>objects\obj_click_zoom_two</object>
+      <object>objects\obj_click_zoom_three</object>
+    </objects>
     <object>objects\obj_quit</object>
     <objects name="bar_tools">
       <object>objects\obj_bar_tools</object>
