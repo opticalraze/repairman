@@ -18,7 +18,6 @@
     <sprite>sprites\spr_computer</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\spr_bar_money</sprite>
-    <sprite>sprites\sprite7</sprite>
     <sprite>sprites\sprite13</sprite>
     <sprite>sprites\spr_bar_zoom</sprite>
     <sprite>sprites\spr_click_zoom</sprite>
@@ -52,7 +51,6 @@
     <object>objects\obj_cursor_computer</object>
     <object>objects\obj_computer</object>
     <object>objects\obj_leave</object>
-    <object>objects\obj_wall</object>
     <object>objects\obj_bench</object>
     <objects name="bar_zoom">
       <object>objects\obj_bar_zoom</object>
