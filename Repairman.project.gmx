@@ -25,6 +25,8 @@
     <sprite>sprites\spr_click_tools</sprite>
     <sprite>sprites\spr_computer_dock</sprite>
     <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\spr_click_dock</sprite>
+    <sprite>sprites\spr_computer_close</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -36,6 +38,9 @@
     <background>background\background5</background>
     <background>background\background6</background>
     <background>background\bg_computer_topbar</background>
+    <background>background\bg_computer_settings</background>
+    <background>background\bg_computer_store</background>
+    <background>background\bg_computer_mail</background>
     <background>background\bg_computer_dock</background>
     <background>background\bg_brick</background>
   </backgrounds>
@@ -52,6 +57,10 @@
     <object>objects\obj_computer</object>
     <object>objects\obj_leave</object>
     <object>objects\obj_bench</object>
+    <object>objects\obj_click_computer_close</object>
+    <object>objects\obj_click_dock_one</object>
+    <object>objects\obj_click_dock_two</object>
+    <object>objects\obj_click_dock_three</object>
     <objects name="bar_zoom">
       <object>objects\obj_bar_zoom</object>
       <object>objects\obj_click_zoom_one</object>
@@ -71,6 +80,9 @@
     <room>rooms\rm_one</room>
     <room>rooms\rm_bench</room>
     <room>rooms\rm_computer</room>
+    <room>rooms\rm_computer_store</room>
+    <room>rooms\rm_computer_mail</room>
+    <room>rooms\rm_computer_settings</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
