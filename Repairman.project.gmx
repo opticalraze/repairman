@@ -27,6 +27,17 @@
     <sprite>sprites\sprite17</sprite>
     <sprite>sprites\spr_click_dock</sprite>
     <sprite>sprites\spr_computer_close</sprite>
+    <sprite>sprites\spr_laptop_back</sprite>
+    <sprite>sprites\spr_laptop_open</sprite>
+    <sprites name="part">
+      <sprite>sprites\spr_part_ssd_one</sprite>
+      <sprite>sprites\spr_part_ssd_two</sprite>
+      <sprite>sprites\spr_part_hdd</sprite>
+      <sprite>sprites\spr_part_ram_one</sprite>
+      <sprite>sprites\spr_part_drive_adapter</sprite>
+      <sprite>sprites\spr_part_ram_two</sprite>
+    </sprites>
+    <sprite>sprites\sprite24</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
