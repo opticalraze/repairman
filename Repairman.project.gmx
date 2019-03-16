@@ -41,13 +41,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
-    <background>background\bg_floor_old</background>
-    <background>background\background3</background>
-    <background>background\background4</background>
     <background>background\tl_shelves</background>
-    <background>background\background7</background>
-    <background>background\background5</background>
-    <background>background\background6</background>
     <background>background\bg_computer_topbar</background>
     <background>background\bg_computer_settings</background>
     <background>background\bg_computer_store</background>
