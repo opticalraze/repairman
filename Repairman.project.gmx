@@ -6,30 +6,44 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_table</sprite>
-    <sprite>sprites\spr_shelves</sprite>
-    <sprite>sprites\spr_bench</sprite>
-    <sprite>sprites\spr_cursor</sprite>
-    <sprite>sprites\spr_cursor_computer</sprite>
-    <sprite>sprites\spr_cursor_desk</sprite>
-    <sprite>sprites\spr_cursor_quit</sprite>
-    <sprite>sprites\spr_cursor_tools</sprite>
-    <sprite>sprites\spr_cursor_computer_gui</sprite>
-    <sprite>sprites\spr_computer</sprite>
-    <sprite>sprites\sprite5</sprite>
-    <sprite>sprites\spr_bar_money</sprite>
-    <sprite>sprites\sprite13</sprite>
-    <sprite>sprites\spr_bar_zoom</sprite>
-    <sprite>sprites\spr_click_zoom</sprite>
-    <sprite>sprites\spr_bar_tools</sprite>
-    <sprite>sprites\spr_click_tools</sprite>
-    <sprite>sprites\spr_computer_dock</sprite>
-    <sprite>sprites\sprite17</sprite>
-    <sprite>sprites\spr_click_dock</sprite>
-    <sprite>sprites\spr_computer_close</sprite>
-    <sprite>sprites\spr_laptop_back</sprite>
-    <sprite>sprites\spr_laptop_open</sprite>
-    <sprites name="part">
+    <sprites name="cursor">
+      <sprite>sprites\spr_cursor</sprite>
+      <sprite>sprites\spr_cursor_computer</sprite>
+      <sprite>sprites\spr_cursor_desk</sprite>
+      <sprite>sprites\spr_cursor_quit</sprite>
+      <sprite>sprites\spr_cursor_tools</sprite>
+      <sprite>sprites\spr_cursor_computer_gui</sprite>
+    </sprites>
+    <sprites name="objects">
+      <sprite>sprites\spr_computer</sprite>
+      <sprite>sprites\spr_leave</sprite>
+      <sprite>sprites\spr_bench</sprite>
+    </sprites>
+    <sprites name="tools">
+      <sprite>sprites\spr_bar_zoom</sprite>
+      <sprite>sprites\spr_bar_tools</sprite>
+    </sprites>
+    <sprites name="computer">
+      <sprite>sprites\spr_computer_dock</sprite>
+    </sprites>
+    <sprites name="old">
+      <sprite>sprites\sprite17</sprite>
+      <sprite>sprites\sprite13</sprite>
+      <sprite>sprites\spr_shelves</sprite>
+      <sprite>sprites\spr_bar_money</sprite>
+      <sprite>sprites\sprite24</sprite>
+    </sprites>
+    <sprites name="laptop">
+      <sprite>sprites\spr_laptop_back</sprite>
+      <sprite>sprites\spr_laptop_open</sprite>
+    </sprites>
+    <sprites name="click">
+      <sprite>sprites\spr_click_dock</sprite>
+      <sprite>sprites\spr_computer_close</sprite>
+      <sprite>sprites\spr_click_zoom</sprite>
+      <sprite>sprites\spr_click_tools</sprite>
+    </sprites>
+    <sprites name="parts">
       <sprite>sprites\spr_part_ssd_one</sprite>
       <sprite>sprites\spr_part_ssd_two</sprite>
       <sprite>sprites\spr_part_hdd</sprite>
@@ -37,17 +51,18 @@
       <sprite>sprites\spr_part_drive_adapter</sprite>
       <sprite>sprites\spr_part_ram_two</sprite>
     </sprites>
-    <sprite>sprites\sprite24</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
-    <background>background\tl_shelves</background>
-    <background>background\bg_computer_topbar</background>
-    <background>background\bg_computer_settings</background>
-    <background>background\bg_computer_store</background>
-    <background>background\bg_computer_mail</background>
-    <background>background\bg_computer_dock</background>
     <background>background\bg_brick</background>
+    <background>background\tl_shelves</background>
+    <backgrounds name="computer">
+      <background>background\bg_computer_topbar</background>
+      <background>background\bg_computer_settings</background>
+      <background>background\bg_computer_store</background>
+      <background>background\bg_computer_mail</background>
+      <background>background\bg_computer_dock</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -56,16 +71,22 @@
   <objects name="objects">
     <object>objects\obj_game</object>
     <object>objects\obj_quit</object>
-    <object>objects\obj_cursor</object>
-    <object>objects\obj_cursor_tools</object>
-    <object>objects\obj_cursor_computer</object>
-    <object>objects\obj_computer</object>
-    <object>objects\obj_leave</object>
-    <object>objects\obj_bench</object>
-    <object>objects\obj_click_computer_close</object>
-    <object>objects\obj_click_dock_one</object>
-    <object>objects\obj_click_dock_two</object>
-    <object>objects\obj_click_dock_three</object>
+    <objects name="cursor">
+      <object>objects\obj_cursor</object>
+      <object>objects\obj_cursor_tools</object>
+      <object>objects\obj_cursor_computer</object>
+    </objects>
+    <objects name="objects">
+      <object>objects\obj_bench</object>
+      <object>objects\obj_leave</object>
+      <object>objects\obj_computer</object>
+    </objects>
+    <objects name="click">
+      <object>objects\obj_click_computer_close</object>
+      <object>objects\obj_click_dock_one</object>
+      <object>objects\obj_click_dock_two</object>
+      <object>objects\obj_click_dock_three</object>
+    </objects>
     <objects name="bar_zoom">
       <object>objects\obj_bar_zoom</object>
       <object>objects\obj_click_zoom_one</object>
@@ -83,11 +104,15 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
-    <room>rooms\rm_bench</room>
-    <room>rooms\rm_computer</room>
-    <room>rooms\rm_computer_store</room>
-    <room>rooms\rm_computer_mail</room>
-    <room>rooms\rm_computer_settings</room>
+    <rooms name="bench">
+      <room>rooms\rm_bench</room>
+    </rooms>
+    <rooms name="computer">
+      <room>rooms\rm_computer</room>
+      <room>rooms\rm_computer_store</room>
+      <room>rooms\rm_computer_mail</room>
+      <room>rooms\rm_computer_settings</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
