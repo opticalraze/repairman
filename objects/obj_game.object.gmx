@@ -85,6 +85,10 @@ if (keyboard_check_pressed(vk_escape))
             <kind>1</kind>
             <string>display_set_gui_size(192,108);
 
+//draw_sprite(spr_money_background,0,0,99);
+
+//text_draw(0,0,"515563512315$52$",font_numbers);
+
 //draw_sprite(spr_bar_money,0,0,0);
 </string>
           </argument>

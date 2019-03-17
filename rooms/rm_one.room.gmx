@@ -55,6 +55,7 @@
     <instance objName="obj_computer" x="32" y="-11" name="inst_47B97698" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_leave" x="112" y="-15" name="inst_F2E46B4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bench" x="64" y="80" name="inst_4CFC32F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_box" x="146" y="25" name="inst_2C1A55FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tl_shelves" x="0" y="16" w="16" h="16" xo="0" yo="0" id="10000003" name="inst_3256322B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -6,9 +6,11 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_box</sprite>
     <sprites name="cursor">
       <sprite>sprites\spr_cursor</sprite>
       <sprite>sprites\spr_cursor_computer</sprite>
+      <sprite>sprites\spr_cursor_box</sprite>
       <sprite>sprites\spr_cursor_desk</sprite>
       <sprite>sprites\spr_cursor_quit</sprite>
       <sprite>sprites\spr_cursor_tools</sprite>
@@ -29,9 +31,10 @@
     <sprites name="old">
       <sprite>sprites\sprite17</sprite>
       <sprite>sprites\sprite13</sprite>
-      <sprite>sprites\spr_shelves</sprite>
       <sprite>sprites\spr_bar_money</sprite>
       <sprite>sprites\sprite24</sprite>
+      <sprite>sprites\spr_shelves</sprite>
+      <sprite>sprites\spr_safe</sprite>
     </sprites>
     <sprites name="laptop">
       <sprite>sprites\spr_laptop_back</sprite>
@@ -47,10 +50,18 @@
       <sprite>sprites\spr_part_ssd_one</sprite>
       <sprite>sprites\spr_part_ssd_two</sprite>
       <sprite>sprites\spr_part_hdd</sprite>
+      <sprite>sprites\spr_part_ram_one_alt</sprite>
       <sprite>sprites\spr_part_ram_one</sprite>
-      <sprite>sprites\spr_part_drive_adapter</sprite>
+      <sprite>sprites\spr_part_ram_two_alt</sprite>
       <sprite>sprites\spr_part_ram_two</sprite>
+      <sprite>sprites\spr_part_diskdrive</sprite>
+      <sprite>sprites\spr_part_diskdrive_alt</sprite>
+      <sprite>sprites\spr_part_drive_adapter</sprite>
+      <sprite>sprites\spr_part_drive_adapter_alt</sprite>
     </sprites>
+    <sprite>sprites\font_numbers</sprite>
+    <sprite>sprites\spr_quit</sprite>
+    <sprite>sprites\spr_money_background</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_floor</background>
@@ -63,11 +74,14 @@
       <background>background\bg_computer_mail</background>
       <background>background\bg_computer_dock</background>
     </backgrounds>
+    <background>background\bg_box</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\quit_game.gml</script>
+    <script>scripts\text_draw.gml</script>
   </scripts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_game</object>
     <object>objects\obj_quit</object>
@@ -80,6 +94,7 @@
       <object>objects\obj_bench</object>
       <object>objects\obj_leave</object>
       <object>objects\obj_computer</object>
+      <object>objects\obj_box</object>
     </objects>
     <objects name="click">
       <object>objects\obj_click_computer_close</object>
@@ -101,9 +116,18 @@
       <object>objects\obj_click_tool_four</object>
       <object>objects\obj_click_tool_five</object>
     </objects>
+    <object>objects\obj_inventory</object>
+    <object>objects\obj_box_part_ram_one</object>
+    <object>objects\obj_box_part_ram_two</object>
+    <object>objects\obj_box_part_ssd_one</object>
+    <object>objects\obj_box_part_ssd_two</object>
+    <object>objects\obj_box_part_hdd</object>
+    <object>objects\obj_box_part_diskdrive</object>
+    <object>objects\obj_box_part_drive_adapter</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_one</room>
+    <room>rooms\rm_box</room>
     <rooms name="bench">
       <room>rooms\rm_bench</room>
     </rooms>
