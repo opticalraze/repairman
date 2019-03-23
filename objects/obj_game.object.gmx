@@ -26,6 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>// the cursor is created in the computer object
+
+//variables
+global.money = 1200;
+global.part_ram_1 = 12;
+global.part_ram_2 = 5;
+global.part_ssd_1 = 15;
+global.part_ssd_2 = 11;
+global.part_hdd = 10;
+global.part_adapter = 13;
+global.part_disk_drive = 12;
 </string>
           </argument>
         </arguments>

@@ -58,7 +58,7 @@ sprite_index = spr_cursor;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_bench">
+    <event eventtype="4" ename="obj_computer">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -75,7 +75,7 @@ sprite_index = spr_cursor;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = spr_cursor_desk;
+            <string>sprite_index = spr_cursor_computer;
 </string>
           </argument>
         </arguments>
@@ -104,7 +104,7 @@ sprite_index = spr_cursor;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_computer">
+    <event eventtype="4" ename="obj_bench">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -121,7 +121,7 @@ sprite_index = spr_cursor;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = spr_cursor_computer;
+            <string>sprite_index = spr_cursor_desk;
 </string>
           </argument>
         </arguments>
